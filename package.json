@@ -3,13 +3,16 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "typescript": "^4.2.2"
+  },
   "devDependencies": {
     "ts-node": "^9.1.1"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node src/index.ts "
   },
-  "author": "",
+  "author": "Alvarez Pacheco Adolfo Esteban",
   "license": "ISC"
 }
